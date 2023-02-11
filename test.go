@@ -74,13 +74,14 @@ func main()  {
 	fmt.Scan(&ans6)
 	if ans6 == 4 {
 		count++
+		fmt.Println("Correct")
 		
 	}
 
 	
 	var Score int
 	Score = count*100/5
-	fmt.Printf("Your Score is : %v,%v",Score,count)
+	fmt.Printf("Your Score is : %v%%,",Score)
 	
 	
 }
